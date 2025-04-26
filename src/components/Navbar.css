@@ -13,6 +13,10 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .navbar-left .logo:hover {
+    color: #4a6cf7;
+  }
   
   .navbar-center .nav-links {
     list-style-type: none;

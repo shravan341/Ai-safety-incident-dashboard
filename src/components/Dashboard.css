@@ -76,21 +76,20 @@ li:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Incident Title */
+
 li h3 {
   font-size: 1.25rem;
   color: #34495e;
   margin-bottom: 0.5rem;
 }
 
-/* Incident Meta */
+
 li p {
   font-size: 0.875rem;
   color: #7f8c8d;
   margin-bottom: 1rem;
 }
 
-/* Toggle Button */
 button {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
@@ -106,7 +105,7 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* Description */
+
 p {
   font-size: 1rem;
   color: #2c3e50;

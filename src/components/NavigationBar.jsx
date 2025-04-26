@@ -17,7 +17,7 @@ function NavigationBar() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/aboutus">About Us</Link> {/* Changed to lowercase */}
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

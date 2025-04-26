@@ -8,7 +8,7 @@ function AboutUs() {
     <div className="about-container">
       <div className="profile-card">
         <img
-          src={pic} // Changed to local path - make sure to add the image in your public folder
+          src={pic} 
           alt="Shravan"
           className="profile-img"
         />
