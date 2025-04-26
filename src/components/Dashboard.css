@@ -1,0 +1,115 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Dashboard Container */
+.dashboard {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.dashboard h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.controls select,
+.controls button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls select:hover,
+.controls button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Incident List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Incident Title */
+li h3 {
+  font-size: 1.25rem;
+  color: #34495e;
+  margin-bottom: 0.5rem;
+}
+
+/* Incident Meta */
+li p {
+  font-size: 0.875rem;
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+/* Toggle Button */
+button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Description */
+p {
+  font-size: 1rem;
+  color: #2c3e50;
+  margin-top: 1rem;
+}  
+ 
