@@ -1,12 +1,62 @@
-# React + Vite
+AI Dashboard
+A modern, responsive web application for monitoring AI safety incidents and showcasing the development team.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Navigation Bar: Fully responsive navigation linking all major sections.
 
-Currently, two official plugins are available:
+Home Page: Displays compelling facts and insights about AI safety.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dashboard: Main interface for real-time AI incident monitoring (coming soon).
 
-## Expanding the ESLint configuration
+About Us: Profile cards highlighting the team members.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Contact Page: Interactive form for reaching out to the team.
+
+Technologies Used
+React.js (v18+)
+
+React Router (v6+)
+
+CSS3 (with Flexbox)
+
+Font Awesome (for icons)
+
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/ai-dashboard.git
+cd ai-dashboard
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to:
+
+arduino
+Copy code
+http://localhost:3000
+Project Structure
+bash
+Copy code
+/src
+├── /components
+│ ├── AboutUs.js # Team profile component
+│ ├── Contact.js # Contact form component
+│ ├── Dashboard.js # Main dashboard component
+│ ├── Home.js # Landing page component
+│ └── NavigationBar.js # Navigation bar component
+├── /css
+│ ├── AboutUs.css
+│ ├── Contact.css
+│ ├── Home.css
+│ └── Navbar.css
+├── App.js # Main application router
+└── index.js # React entry point
