@@ -1,62 +1,55 @@
-AI Dashboard
-A modern, responsive web application for monitoring AI safety incidents and showcasing the development team.
+# AI Dashboard
 
-Features
-Navigation Bar: Fully responsive navigation linking all major sections.
+A responsive web application for monitoring AI safety incidents and showcasing team information.
 
-Home Page: Displays compelling facts and insights about AI safety.
+## Features
 
-Dashboard: Main interface for real-time AI incident monitoring (coming soon).
+- **Navigation Bar**: Responsive navbar with links to all sections
+- **Home Page**: Displays interesting facts about AI safety
+- **Dashboard**: Main interface for AI incident monitoring (to be implemented)
+- **About Us**: Team member profile cards
+- **Contact Page**: Form to get in touch with the team
 
-About Us: Profile cards highlighting the team members.
+## Technologies Used
 
-Contact Page: Interactive form for reaching out to the team.
+- React.js (v18+)
+- React Router (v6+)
+- CSS3 (Flexbox)
+- Font Awesome (for icons)
 
-Technologies Used
-React.js (v18+)
+## Installation
 
-React Router (v6+)
+1. Clone the repository:
 
-CSS3 (with Flexbox)
+   ```bash
+   git clone https://github.com/yourusername/ai-dashboard.git
+   cd ai-dashboard
 
-Font Awesome (for icons)
 
-Installation
-Clone the repository:
+   Install dependencies:
+   ```
 
 bash
-Copy code
-git clone https://github.com/yourusername/ai-dashboard.git
-cd ai-dashboard
-Install dependencies:
-
-bash
-Copy code
 npm install
 Start the development server:
 
 bash
-Copy code
 npm start
-Open your browser and navigate to:
+Open your browser and visit:
 
-arduino
-Copy code
 http://localhost:3000
-Project Structure
-bash
-Copy code
+
 /src
-├── /components
-│ ├── AboutUs.js # Team profile component
-│ ├── Contact.js # Contact form component
-│ ├── Dashboard.js # Main dashboard component
-│ ├── Home.js # Landing page component
-│ └── NavigationBar.js # Navigation bar component
-├── /css
-│ ├── AboutUs.css
-│ ├── Contact.css
-│ ├── Home.css
-│ └── Navbar.css
-├── App.js # Main application router
-└── index.js # React entry point
+|-- /components
+| |-- AboutUs.js # Team profile component
+| |-- Contact.js # Contact form component
+| |-- Dashboard.js # Main dashboard component
+| |-- Home.js # Landing page component
+| |-- NavigationBar.js # Navigation component
+|-- /css
+| |-- AboutUs.css
+| |-- Contact.css
+| |-- Home.css
+| |-- Navbar.css
+|-- App.js # Main application router
+|-- index.js # React entry point
